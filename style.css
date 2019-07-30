@@ -143,11 +143,12 @@ nav {
 }
 
 .scroll-section {
-    width: 2%;
+    width: 15%;
     display: flex;
-    flex: 1;
+    flex: 3;
     flex-direction: column;
-
+    align-items: center;
+    margin: auto;
 }
 
 .scroll {
@@ -164,4 +165,8 @@ nav {
     width: 15%;
     flex: 1;
     justify-content: space-around;
+}
+
+.social-icons a {
+    color: #454545;
 }
