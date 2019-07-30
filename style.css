@@ -13,7 +13,7 @@ body {
 
 header {
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: auto;
     height: 10vh;
     align-items: center;
@@ -40,7 +40,8 @@ nav {
 
 .cart {
     flex: 1;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 75px;
 
 }
 
@@ -57,7 +58,7 @@ nav {
 
 .presentation {
     display: flex;
-    width: 80%;
+    width: 90%;
     height: 80vh;
     margin: auto;
     align-items: center;
@@ -91,11 +92,15 @@ nav {
 
 .cover {
     flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 /* add a border to the image i.e png */
 .cover img {
     filter: drop-shadow(0px 5px 3px black);
+
 }
 
 /* button */
@@ -116,3 +121,15 @@ nav {
 }
 
 /* Add the background to the product */
+
+.product-bg {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: -1;
+    height: 65%;
+    width: 20%;
+    opacity: 0.7;
+
+
+}
