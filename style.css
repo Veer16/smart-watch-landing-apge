@@ -133,3 +133,35 @@ nav {
 
 
 }
+
+.scroll-social-section {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+}
+
+.scroll-section {
+    width: 2%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.scroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+
+}
+
+
+.social-icons {
+    display: flex;
+    width: 15%;
+    flex: 1;
+    justify-content: space-around;
+}
